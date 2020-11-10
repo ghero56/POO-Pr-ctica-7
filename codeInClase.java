@@ -1,6 +1,5 @@
 /*
 Jerarquía de clases
-
   implemetar herencia
   super clase -> generalizacion
   subclase -> especializacion
@@ -18,6 +17,10 @@ class subClase /*extends superClase*/{
   public static class Empleado{
     private static String nombre;
     private static int id,sueldo;
+
+    public Empleado(){
+
+    }
     /*setters*/
     public static void setNombre(String name){ nombre = name; }
     public static void setSueldo(int newSueldo){ sueldo = newSueldo; }
@@ -38,8 +41,17 @@ class subClase /*extends superClase*/{
 
   public static class Gerente extends Empleado{
     private static int presupuesto;
+
+    public Gerente(){
+      // sobre escritura (solo funciona entre clases)
+    }
+
     public static void asignarPresupuesto(int pre){
       presupuesto = pre;
+    }
+    // sobrecarga (solo funciona en la misma clase)
+    public static void asignarPresupuesto(int pre){
+      System.out.println("No hay presupuesto");
     }
   }
 

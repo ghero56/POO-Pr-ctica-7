@@ -27,7 +27,8 @@ class PruebaMedico{
     m.setEspecialidad("Medico Cirujano");
     m.setAreaDeTrabajo("Quirofano");
 
-    System.out.println(m.toString());
+    System.out.println(m.toString()); // pidiendolo
+    System.out.println(m); // toString sin pedir
 
     System.out.println(m.trabajar());
 

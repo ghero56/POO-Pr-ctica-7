@@ -1,0 +1,14 @@
+// crear clase empleado para:
+/*
+// crear:
+      Lider de proyecto
+      Desarrollador
+      Diseñador
+      Administrador
+      Tester
+// crear un metodo trabajar para cada clase
+// crear clase nomina con un metodo pagar que recibe un empleado
+    utilizar instanceof para determinar el valor a pagar
+// sobreescribir toString en todas las clases
+// crear constructores para cada clase con argumentos
+*/
