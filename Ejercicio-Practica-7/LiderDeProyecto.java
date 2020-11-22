@@ -6,6 +6,6 @@ public class LiderDeProyecto extends Empleado{
 
   public String toString(){
     String oldStr = super.toString();
-    return oldStr + " Liderando con sabiduria";
+    return oldStr + " Liderando proyecto...";
   }
 }

@@ -6,6 +6,6 @@ public class Administrador extends Empleado{
 
   public String toString(){
     String oldStr = super.toString();
-    return oldStr + " Administrando conocimiento";
+    return oldStr + " Administrando recursos...";
   }
 }

@@ -6,6 +6,6 @@ public class Desarrollador extends Empleado{
 
   public String toString(){
     String oldStr = super.toString();
-    return oldStr + " Desarrollando con pasion";
+    return oldStr + " Desarrollando codigo...";
   }
 }
